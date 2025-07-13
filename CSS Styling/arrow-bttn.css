@@ -1,0 +1,29 @@
+.arrow-bttn {
+  display: none;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  right: 2.6%;
+  bottom: 5%;
+  background-color: rgb(25, 25, 25);
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  z-index: 2;
+}
+.arrow-bttn svg {
+  object-position: center;
+}
+.arrow-bttn.active {
+  display: inline-block;
+}
+.arrow-bttn:hover {
+  width: 55px;
+  height: 55px;
+  box-shadow: inset 0px 3px 5px rgba(255, 255, 255, 0.4);
+}
+.arrow-bttn:hover svg {
+  height: 30px;
+  width: 30px;
+}

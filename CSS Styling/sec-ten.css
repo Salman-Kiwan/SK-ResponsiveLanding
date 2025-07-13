@@ -1,0 +1,147 @@
+.ten {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 150px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  overflow-x: hidden;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+}
+.contact-container .title {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 33px;
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  color: black;
+}
+.contact-container .subtitle {
+  text-align: center;
+}
+.info-wrapper {
+  display: flex;
+  gap: 20px;
+}
+.contact-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+}
+.contact-label {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 33px;
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  color: black;
+}
+.contact-card .contact-info {
+  font-size: 18px;
+  text-align: center;
+  color: rgb(68, 68, 68);
+}
+.info-input-container {
+  padding: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: space-between;
+  width: 605px;
+}
+.full-name-input {
+  display: flex;
+  gap: 30px;
+}
+
+.info-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.info-input .label {
+  color: rgb(35, 35, 35);
+
+  font-size: 16px;
+}
+.info-input input {
+  width: 100%;
+  height: 51px;
+  padding: 25px;
+  border: 1px solid #e5e5e5;
+  color: #232323;
+}
+.info-input-bttn {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.info-input-bttn .themed-bttn {
+  margin-top: 0px;
+}
+.info-input textarea {
+  height: 144px;
+  padding: 25px;
+  font-size: 16px;
+  line-height: 23px;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+}
+textarea::placeholder {
+  font-size: 16px;
+  line-height: 23px;
+}
+textarea:focus {
+  outline: none;
+}
+@media (max-width: 1040px) {
+  .full-name-input {
+    flex-direction: column;
+  }
+  .info-input-container {
+    width: 400px;
+  }
+}
+@media (max-width: 840px) {
+  .info-wrapper {
+    flex-direction: column;
+    gap: 75px;
+    align-items: center;
+    justify-content: center;
+  }
+  .full-name-input {
+    flex-direction: column;
+  }
+  .contact-card-container {
+    align-items: center;
+  }
+  .info-input-container {
+    padding: 25px;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 400px;
+  }
+}
+@media (max-width: 500px) {
+  .info-input-container {
+    flex-direction: column;
+    gap: 25px;
+    max-width: 300px;
+  }
+}

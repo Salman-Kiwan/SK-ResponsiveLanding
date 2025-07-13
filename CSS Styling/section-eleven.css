@@ -1,0 +1,171 @@
+.eleven {
+  background-color: black;
+  height: auto;
+  display: flex;
+  padding: 0px 15px;
+  margin: 0px auto;
+  justify-content: center;
+
+  gap: 50px;
+  color: white;
+  padding: 150px 0px;
+}
+.logo-info {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px;
+  gap: 25px;
+  max-width: 277px;
+}
+.eleven .logo {
+  color: white;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 75px;
+  font-family: "Manrope", sans-serif;
+  text-align: left;
+  max-width: 440px;
+  min-width: 0;
+}
+.eleven .info {
+  color: rgb(237, 237, 237);
+  width: 100%;
+}
+.terms a {
+  color: rgb(237, 237, 237);
+  width: 100%;
+  transition: color 0.15s ease-in-out;
+  cursor: pointer;
+}
+.terms a:hover {
+  color: rgb(111, 111, 111);
+}
+.newsletter {
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  gap: 25px;
+  width: 227px;
+}
+.email {
+  position: relative;
+}
+.newsletter input {
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid rgb(192, 191, 191);
+  padding: 0px 40px 0px 10px;
+  width: 227px;
+}
+.newsletter span {
+  position: absolute;
+  right: 10px;
+  top: 50;
+  transform: translateY(50%);
+}
+.email-text {
+  width: fit-content;
+  height: 20px;
+  padding: 4px;
+  font-size: 11px;
+  background-color: rgb(153, 153, 153);
+  color: white;
+  border-radius: 2px;
+  top: -100vh;
+  right: -50px;
+  position: absolute;
+  opacity: 0;
+  transition: top 0.8s cubic-bezier(0.25, 1.2, 0.5, 1), opacity 0.6s ease;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.email span:hover .email-text {
+  top: 50%;
+  transform: translateY(-60%);
+  opacity: 1;
+}
+.eleven .themed-bttn {
+  font-weight: 700;
+  font-family: "Manrope" sans-serif;
+  padding: 10px 35px 10px 37px;
+  font-family: "Manrope";
+  font-size: 14px;
+  margin-top: 0px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 135px;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 135px;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 155px;
+}
+.eleven .title {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 33px;
+  font-family: "Manrope", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.eleven a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out;
+  line-height: 23px;
+  cursor: pointer;
+}
+.eleven a:hover {
+  color: rgb(111, 111, 111);
+}
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 15px;
+  overflow: hidden;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+@media (max-width: 1000px) {
+  .eleven {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 75px;
+  }
+  .eleven .logo-info {
+    max-width: 50%;
+    align-items: center;
+  }
+  .eleven .newsletter {
+    max-width: 80%;
+    align-items: center;
+  }
+  .eleven .links {
+    max-width: 80%;
+    align-items: center;
+  }
+  .eleven .social {
+    max-width: 80%;
+    align-items: center;
+  }
+  .eleven .gallery {
+    max-width: 80%;
+    align-items: center;
+  }
+}
