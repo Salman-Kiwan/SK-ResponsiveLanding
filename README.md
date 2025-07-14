@@ -3,7 +3,7 @@
 A modern, responsive landing page created using **pure HTML, CSS, and JavaScript**. The project features clean layout structure, scroll-based animations, and a smooth user experience — all built without any libraries or frameworks.
 
 ## 🔗 Live Demo
-👉 [Visit the Live Website](https://salman-kiwan.github.io/Session9-task-1/)
+👉 [Visit the Live Website]
 
 ## 🎥 Video Walkthrough
 ![web-interface](https://github.com/user-attachments/assets/38423708-12bd-4c59-bc94-30bc9eb4c39d)
