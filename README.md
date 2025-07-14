@@ -1,4 +1,4 @@
-# 🎨 Session9-task-1 — Responsive Landing Page with Scroll Animations
+# 🎨 SK-ResponsiveLanding — Responsive Landing Page with Scroll Animations
 
 A modern, responsive landing page created using **pure HTML, CSS, and JavaScript**. The project features clean layout structure, scroll-based animations, and a smooth user experience — all built without any libraries or frameworks.
 
